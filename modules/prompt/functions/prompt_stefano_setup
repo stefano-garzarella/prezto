@@ -8,9 +8,13 @@
 #   steeef <steeef@gmail.com>
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 <<<<<<< HEAD
+<<<<<<< HEAD
 #   Stefano Garzarella <stefano.garzarella@gmail.com>
 =======
 >>>>>>> Added my theme "stefano"
+=======
+#   Stefano Garzarella <stefano.garzarella@gmail.com>
+>>>>>>> Modified stefano theme
 #
 # Screenshots:
 #   http://i.imgur.com/HyRvv.png
@@ -54,11 +58,17 @@ function prompt_steeef_setup {
       "%F{161}" # Hotpink
       "%F{118}" # Limegreen
 <<<<<<< HEAD
+<<<<<<< HEAD
       "%F{26}" 	# Blue
       "%F{2}" 	# Green
       "%F{1}" 	# Red
 =======
 >>>>>>> Added my theme "stefano"
+=======
+      "%F{26}" 	# Blue
+      "%F{2}" 	# Green
+      "%F{1}" 	# Red
+>>>>>>> Modified stefano theme
     )
   else
     _prompt_steeef_colors=(
@@ -68,11 +78,17 @@ function prompt_steeef_setup {
       "%F{red}"
       "%F{green}"
 <<<<<<< HEAD
+<<<<<<< HEAD
       "%F{blue}"
       "%F{green}"
       "%F{red}"
 =======
 >>>>>>> Added my theme "stefano"
+=======
+      "%F{blue}"
+      "%F{green}"
+      "%F{red}"
+>>>>>>> Modified stefano theme
     )
   fi
 
@@ -103,12 +119,17 @@ function prompt_steeef_setup {
   # Define prompts.
   PROMPT="
 <<<<<<< HEAD
+<<<<<<< HEAD
 ${_prompt_steeef_colors[6]}%n%f@${_prompt_steeef_colors[7]}%m%f: ${_prompt_steeef_colors[5]}%~%f "'${vcs_info_msg_0_}'"
 "'$python_info[virtualenv]'"> "
 =======
 ${_prompt_steeef_colors[3]}%n%f@${_prompt_steeef_colors[2]}%m%f: ${_prompt_steeef_colors[5]}%~%f "'${vcs_info_msg_0_}'"
 "'$python_info[virtualenv]'"$ "
 >>>>>>> Added my theme "stefano"
+=======
+${_prompt_steeef_colors[6]}%n%f@${_prompt_steeef_colors[7]}%m%f: ${_prompt_steeef_colors[5]}%~%f "'${vcs_info_msg_0_}'"
+"'$python_info[virtualenv]'"> "
+>>>>>>> Modified stefano theme
   RPROMPT=''
 }
 
