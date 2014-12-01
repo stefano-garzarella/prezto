@@ -75,3 +75,8 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
+
+if [[ "$OSTYPE" == linux* ]]; then
+    envoy -t ssh-agent
+    source <(envoy -p)
+fi
