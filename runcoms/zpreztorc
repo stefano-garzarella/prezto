@@ -160,6 +160,6 @@ zstyle ':prezto:module:syntax-highlighting' color 'yes'
 # zstyle ':prezto:module:tmux:auto-start' remote 'yes'
 
 # Integrate with iTerm2.
-style ':prezto:module:tmux:iterm' integrate 'yes'
+zstyle ':prezto:module:tmux:iterm' integrate 'yes'
 
 alias ste_work='cd /home/stefano/repos/passthrough-full/'
