@@ -73,7 +73,6 @@ fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
 
-if [[ "$OSTYPE" == linux* ]]; then
-    envoy -t ssh-agent
-    source <(envoy -p)
+if [[ "$OSTYPE" == linux* || "$OSTYPE" == freebsd* ]]; then
+    eval `keychain --eval id_rsa`
 fi
